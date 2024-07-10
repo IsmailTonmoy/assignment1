@@ -1,5 +1,12 @@
 /*banner style*/
 
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <800>;
+    font-style: normal;
+  }
+
 .banner-header{
     font-size: 48px;
     font-weight: 800px;
@@ -9,13 +16,36 @@
 .banner-description{
     font-size: 16px;
     font-weight: 400px;
+    position: center;
 }
 
 
+.banner-pic{
+    width: 240px;
+    height: 240px;
+    margin: 0 400px 0 167px;
+    
+   
 
-.azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <800>;
-  font-style: normal;
+
+}
+
+.header{
+    background-image:url(../assets/Hero-bg.png) ;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    max-height: 652px ;
+
+}
+.banner-content{
+    max-width: 998px;
+    margin: 0 157px 0 167px;
+    position: center;
+
+}
+
+
+.banner{
+    height: 605px;
 }
