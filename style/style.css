@@ -1,0 +1,21 @@
+/*banner style*/
+
+.banner-header{
+    font-size: 48px;
+    font-weight: 800px;
+
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+}
