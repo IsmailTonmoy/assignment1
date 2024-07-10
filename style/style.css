@@ -63,3 +63,22 @@
 }
 
 
+/* 2nd section*/
+
+.im{
+    display: flex;
+    position: right;
+}
+
+/* target*/
+
+.targetmm{
+
+   display: flex; 
+   gap: 24px;
+
+}
+
+.description{
+    padding: 30px;
+}
