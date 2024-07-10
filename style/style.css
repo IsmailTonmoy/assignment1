@@ -31,25 +31,24 @@
 }
 
 .header{
-    background-image:url(../assets/Hero-bg.png) ;
-    background-size: cover;
+    background-image:url(../assets/Hero-bg.png);
     background-position: center;
-    max-width: 1440px;
-    max-height: 652px ;
+    max-width: 1488px;
+    height: 674px;
+    text-align: center;
 
 }
 .banner-content{
     max-width: 974px;
     height: 581px;
     margin: 233px 167px;
-    position: center;
-
 }
 
 
 .banner{
     width: 1920px;
     height: 652px;
+    text-align: center;
 }
 
 .btn-p{
@@ -65,14 +64,72 @@
 
 /* 2nd section*/
 
-.whyweb{
-    display: inline;
+.ptwo-semi-card{
+
+display: flex;
+padding: 48px;
+justify-content: space-between;
+gap: 98.83px;
+
+
+
+
+}
+
+.ptwo-container{
+
+    padding: 80px 97px;
+    margin: 74px 152px 74px 139px;
+    background-color: rgba(13,19,33,.02);
     
 
 }
+
+.ptwo-container>h2{
+    text-align: center;
+}
+.ptwo-container>p{
+    text-align: center;
+}
+
+.whyweb-deatils{
+    padding-right: 87px;
+}
+
+.whyweb-deatils>button{
+    padding: 12px 20px;
+    background-color: white;
+}
+/*.ptwo{
+
+/*display: flex;
+    
+    padding: 80px 97px;
+    background-color: 0D1321;
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+
+   
+
+}
+.whyweb{
+    width: 946px;
+    height: 336px;
+    text-align: right;
+    background-color: bisque;
+    border-radius: 16px;
+    
+}
+
 .title{
     text-align: left;
+}
 
+/* 3rd part*/
+
+.Inspiration{
+    text-align: center;
 }
 
 /* target*/
@@ -92,6 +149,8 @@
 
 .backim{
     background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
     width: 1140px ;
     height: 313px;
     border-radius: 16px;
@@ -101,9 +160,19 @@
     
     
 }
-.la{
-    width: 300px;
+.la>input{
+    padding: 19px 215px 19px 20px;
+    border-radius: 8px;
+}
+.backim-btn{
+    padding: 17px 20px;
+    border-radius: 8px;
 }
 
 
-
+/* footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
