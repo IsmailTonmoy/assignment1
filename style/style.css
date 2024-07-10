@@ -65,9 +65,14 @@
 
 /* 2nd section*/
 
-.im{
-    display: flex;
-    position: right;
+.whyweb{
+    display: inline;
+    
+
+}
+.title{
+    text-align: left;
+
 }
 
 /* target*/
@@ -82,3 +87,23 @@
 .description{
     padding: 30px;
 }
+
+/* last section*/
+
+.backim{
+    background-image: url(../assets/handshake.jpg);
+    width: 1140px ;
+    height: 313px;
+    border-radius: 16px;
+    text-align: center;
+    color: aliceblue;
+
+    
+    
+}
+.la{
+    width: 300px;
+}
+
+
+
