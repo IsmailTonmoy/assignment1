@@ -34,7 +34,7 @@
 .header{
     background-image:url(../assets/Hero-bg.png);
     background-position: center;
-    max-width: 1488px;
+    max-width: 1440px;
     height: 674px;
     text-align: center;
     background-size: cover;
@@ -44,7 +44,7 @@
     padding: 36px 233px 35px 233px;
     max-width: 974px;
     height: 581px;
-    margin: 233px 167px;
+    
 }
 
 
@@ -73,6 +73,9 @@ display: flex;
 padding: 48px;
 justify-content: space-between;
 gap: 98.83px;
+background-color: white;
+border-radius: 16px;
+
 
 
 
@@ -89,14 +92,28 @@ gap: 98.83px;
 }
 
 .ptwo-container>h2{
+    width: 852px;
     text-align: center;
 }
 .ptwo-container>p{
+    width: 852px;
     text-align: center;
+    padding: 24px 47px 48px 47px;
 }
 
 .whyweb-deatils{
+    width: 477px;
     padding-right: 87px;
+}
+.whyweb-deatils>p{
+    padding: 16px 9px 32px 0px ;
+    color: rgba(13, 19, 33, 1);
+}
+.whyweb-deatils>h4{
+    width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+   
 }
 
 .whyweb-deatils>button{
@@ -169,7 +186,7 @@ iframe{
 
 .target-container{
     width: 1140px;
-    padding: 48px 150px 111px 150px;
+    padding: 48px 150px 111px 0px;
     gap: 24px;
     display: flex;
 
