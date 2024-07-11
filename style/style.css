@@ -8,6 +8,7 @@
   }
 
 .banner-header{
+    
     font-size: 48px;
     font-weight: 800px;
 
@@ -23,7 +24,7 @@
 .banner-pic{
     width: 240px;
     height: 240px;
-    margin: 20px 250px 0 167px;
+    padding: 36px 366.66px 32px 366.66px;
     
    
 
@@ -36,9 +37,11 @@
     max-width: 1488px;
     height: 674px;
     text-align: center;
+    background-size: cover;
 
 }
 .banner-content{
+    padding: 36px 233px 35px 233px;
     max-width: 974px;
     height: 581px;
     margin: 233px 167px;
@@ -79,7 +82,7 @@ gap: 98.83px;
 .ptwo-container{
 
     padding: 80px 97px;
-    margin: 74px 152px 74px 139px;
+    margin: 74px 152px 90px 139px;
     background-color: rgba(13,19,33,.02);
     
 
@@ -128,23 +131,84 @@ gap: 98.83px;
 
 /* 3rd part*/
 
-.Inspiration{
+.inspiration-main{
+    padding: 90px 152px 151px 148px ;
+    width: 1140px;
+    height: 775px;
+     ;
+}
+.inspiration-m>h1{
     text-align: center;
 }
-
+.inspiration-m>p{
+    text-align: center;
+}
+.frame{
+    padding: 32px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgba(13, 19, 33, 0.2);
+}
+iframe{
+    width: 1075px;
+    height: 550px;
+    padding: 32;
+    border-radius: 16px;
+}
 /* target*/
+.text{
+    width: 946px;
+    text-align: center;
+    padding: 0 97px 48px 97px;
+}
+.ctarget{
+    max-width: 1140px;
+    
+    padding: 151px 150px 111px 150px;
+}
 
-.targetmm{
-
-   display: flex; 
-   gap: 24px;
+.target-container{
+    width: 1140px;
+    padding: 48px 150px 111px 150px;
+    gap: 24px;
+    display: flex;
 
 }
 
+.target{
+    width: 284px;
+}
 .description{
-    padding: 30px;
+    padding: 44px 40px 43px 40px;
+    text-align: left;
+}
+.target>h3{
+    width: 284px;
+    height: 36px;
+    color: black;
+    text-align: left;
+
+}
+.target1{
+    max-width: 364px;;
+    background-color:rgba(255, 76, 30, 0.05) ;
+    border-radius: 16px;
+    padding: 40px;
 }
 
+.target2{
+    max-width: 364px;;
+    background-color:rgba(0, 76, 232, 0.05) ;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.target3{
+    max-width: 364px;;
+    background-color:rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
 /* last section*/
 
 .backim{
@@ -156,9 +220,15 @@ gap: 98.83px;
     border-radius: 16px;
     text-align: center;
     color: aliceblue;
+    padding: 75px 150px 80px 150px;
+    box-shadow: 0px 4px 4px 0px  rgba(0, 0, 0, 0.25);
+    
+}
 
+.container{
+    padding: 64px 48px 64px 48px;
     
-    
+
 }
 .la>input{
     padding: 19px 215px 19px 20px;
